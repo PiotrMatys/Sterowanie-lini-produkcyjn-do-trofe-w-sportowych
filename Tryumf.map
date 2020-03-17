@@ -1,0 +1,91 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+skonczony_proces                                                  0x0500      20
+proces                                                            0x0514      20
+licznik_pucharow                                                  0x0528       2
+licznik                                                           0x052A       2
+jest_pret_pod_czujnikami                                          0x052C       2
+czas_silnika_dokrecajacego_grzybki                                0x052E       2
+czas_silnika_dokrecajacego_grzybki_stala                          0x0530       2
+il_pretow_gwintowanych                                            0x0532       2
+dlugosc_preta_gwintowanego                                        0x0534       2
+sek0                                                              0x0536       4
+sek1                                                              0x053A       4
+sek2                                                              0x053E       4
+sek3                                                              0x0542       4
+sek0_7s                                                           0x0546       4
+sek1_7s                                                           0x054A       4
+sek2_7s                                                           0x054E       4
+sek3_7s                                                           0x0552       4
+czas_monterow                                                     0x0556       4
+czas_na_transport_preta                                           0x055A       4
+monter_1_time                                                     0x055E       4
+monter_2_time                                                     0x0562       4
+monter_3_time                                                     0x0566       4
+stala_czasowa                                                     0x056A       4
+licznik_spoznien_monter_1                                         0x056E       2
+licznik_spoznien_monter_2                                         0x0570       2
+licznik_spoznien_monter_3                                         0x0572       2
+licznik_spoznien_monter_1_2                                       0x0574       2
+licznik_spoznien_monter_3_nowy                                    0x0576       2
+d                                                                 0x0578       2
+dd                                                                0x057A       2
+gg                                                                0x057C       2
+klej                                                              0x057E       2
+klej_slave                                                        0x0580       2
+monter_slave                                                      0x0582       2
+ff                                                                0x0584       2
+z                                                                 0x0586       1
+grzybek                                                           0x0587       2
+il_grzybkow                                                       0x0589       2
+kontrola_grzybkow                                                 0x058B       2
+licz                                                              0x058D       2
+grzybek_biezacy_dokrecony                                         0x058F       2
+grzybek_dokrecony                                                 0x0591       2
+oproznij_podajnik                                                 0x0593       2
+metalowe_grzybki                                                  0x0595       2
+zajechalem                                                        0x0597       2
+sekwencja                                                         0x0599       2
+pierwszy_raz                                                      0x059B       2
+czas_monterow_stala                                               0x059D       2
+il_pretow_gwintowanych_stala                                      0x059F       2
+oczekiwanie_na_poprawienie                                        0x05A1       2
+potw_zielonym_bo_pomyliles_pedal_z_potwierdz                      0x05A3       2
+czekaj_komunikat                                                  0x05A5       2
+przejechalem_czujnik_lub_jestem_na_nim                            0x05A7       2
+licznik_niezakreconych_grzybkow                                   0x05A9       2
+grzybek_jest_nakrecony_na_precie                                  0x05AB       2
+licznik_wylatujacych_grzybkow                                     0x05AD       2
+licznik_wyzwolen_kurtyny                                          0x05AF       2
+licznik_pucharow_global                                           0x05B1       2
+czas_zaloczonego_orientatora                                      0x05B3       4
+zaloczono_kurtyne                                                 0x05B7       2
+anuluj_biezace_zlecenie                                           0x05B9       2
+licznik_niewlozonych_pretow_z_grzybkiem                           0x05BB       2
+anuluj_biezace_zlecenie_const                                     0x05BD       2
+msek_clock                                                        0x05BF       2
+sek_clock                                                         0x05C1       2
+min_clock                                                         0x05C3       2
+godz_clock                                                        0x05C5       2
+przez_sek_clock                                                   0x05C7       2
+przez_min_clock                                                   0x05C9       2
+przez_godz_clock                                                  0x05CB       2
+tryb_male_puchary                                                 0x05CD       2
+predkosc_wiezyczek_male_puchary                                   0x05CF       2
+wynik_wyboru_male_puchary                                         0x05D1       2
+wielkosc_kamienia                                                 0x05D3       2
+_seed                                                             0x05D5       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+monter_1_skonczyl                                                 R4,R5        2
+monter_2_skonczyl                                                 R6,R7        2
+monter_3_skonczyl                                                 R8,R9        2
+monterzy_skonczyli                                                R10,R11      2
+start                                                             R12,R13      2

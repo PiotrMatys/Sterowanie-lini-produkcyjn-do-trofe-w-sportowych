@@ -1,0 +1,60 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+sek0                                                              0x0500       4
+sek1                                                              0x0504       4
+sek2                                                              0x0508       4
+sek3                                                              0x050C       4
+sek4                                                              0x0510       4
+ulamki_sekund_0                                                   0x0514       4
+ulamki_sekund_1                                                   0x0518       4
+proces                                                            0x051C      20
+skonczony_proces                                                  0x0530      20
+czas_monterow                                                     0x0544       4
+pomocnicza                                                        0x0548       4
+stala_czasowa                                                     0x054C       4
+podaj_nakretke                                                    0x0550       2
+wcisnalem_pedal                                                   0x0552       2
+zezwolenie_na_zacisniecie_szczek_od_master                        0x0554       2
+zacisnalem_szczeki                                                0x0556       2
+jest_nakretka_przy_dolnym                                         0x0558       2
+wlaczam_dodatkowe_wibracje_i_psikanie                             0x055A       2
+licznik_drgania                                                   0x055C       4
+wystarczy_zejscia                                                 0x0560       2
+licznik_widzenia_nakretki                                         0x0562       2
+ilosc_prob_wybicia_zakretki_do_gory                               0x0564       2
+wcisniete_zakonczone                                              0x0566       2
+zezwolenie_od_master                                              0x0568       2
+basia1                                                            0x056A       2
+pozycja_wiezy                                                     0x056C       2
+kkk                                                               0x056E       2
+kkk1                                                              0x0570       2
+v1                                                                0x0572       2
+wielkosc_przesuniecia_kamien                                      0x0574       2
+kamien                                                            0x0576       2
+speed_normal                                                      0x0578       2
+bufor_bledu                                                       0x057A       2
+zliczylem_male_puchary                                            0x057C       2
+licznik_impulsow_male_puchary                                     0x057E       2
+tryb_male_puchary                                                 0x0580       2
+test_zjezdzalni_nakretek                                          0x0582       2
+przeslano_informacje_male_puchary                                 0x0584       2
+male_puchary_pozwolenie_wyjecia_puchara_monter_3                  0x0586       2
+wieza                                                             0x0588       2
+jedz_wieza_cykl_znacznik                                          0x058A       2
+sek5                                                              0x058C       4
+wyzerowalem_sek5                                                  0x0590       2
+_seed                                                             0x0592       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+start                                                             R4,R5        2
+licznik_nakretek                                                  R6,R7        2
+nakretka                                                          R8,R9        2
+czekaj_komunikacja                                                R10,R11      2
+ff                                                                R12,R13      2

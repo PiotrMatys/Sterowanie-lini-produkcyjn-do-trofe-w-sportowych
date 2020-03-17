@@ -1,0 +1,4 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"Tryumf_modul_2.c" LINE:1882
+jedz_wieza_cykl DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"Tryumf_modul_2.c" LINE:396
+obroc_o_1_8_stopnia DSTACK_USAGE:4 DSTACK_LEVEL:4 FILE:"Tryumf_modul_2.c" LINE:96
+timer2_ovf_isr DSTACK_USAGE:7 DSTACK_LEVEL:11 FILE:"Tryumf_modul_2.c" LINE:88

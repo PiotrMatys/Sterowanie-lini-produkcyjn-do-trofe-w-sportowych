@@ -1,0 +1,4 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"Tryumf_modul_2.c" LINE:2015
+procesy DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"Tryumf_modul_2.c" LINE:1197
+proces_0 DSTACK_USAGE:2 DSTACK_LEVEL:2 FILE:"Tryumf_modul_2.c" LINE:668
+timer2_ovf_isr DSTACK_USAGE:7 DSTACK_LEVEL:9 FILE:"Tryumf_modul_2.c" LINE:91
